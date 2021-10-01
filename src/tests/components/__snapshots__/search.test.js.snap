@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should render correctly with no props 1`] = `
+<Fragment>
+  <Memo(ForwardRef(SearchIcon))
+    fontSize="medium"
+  />
+  <InputGroup
+    className="w-90 search-parent"
+    tag="div"
+  >
+    <Input
+      className="search"
+      id="search-input"
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+    />
+  </InputGroup>
+</Fragment>
+`;

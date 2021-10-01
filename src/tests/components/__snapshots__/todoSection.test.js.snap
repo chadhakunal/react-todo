@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoItem should render correctly with name, type and items 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row mb-3 mt-3"
+  >
+    <big
+      className="headers"
+    >
+      Hello
+    </big>
+  </div>
+  <div
+    className="container bordered-box pt-4"
+    style={
+      Object {
+        "height": "60vh",
+        "overflowY": "scroll",
+      }
+    }
+  />
+</div>
+`;

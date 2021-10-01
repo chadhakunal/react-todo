@@ -1,0 +1,11 @@
+.bordered-box {
+    border: 1px dashed rgba(255, 255, 255, 0.75) !important;
+    background-color: transparent !important;
+    border-radius: 5px;
+}
+
+.headers {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}

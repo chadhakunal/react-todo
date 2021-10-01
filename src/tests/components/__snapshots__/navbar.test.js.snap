@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should render correctly with no props 1`] = `
+<div>
+  <Navbar
+    className="navbar-bordered"
+    dark={true}
+    expand="md"
+    tag="nav"
+  >
+    <div
+      className="container pt-2 pb-1"
+    >
+      <NavbarBrand
+        href="/"
+        id="navbar-brand"
+        tag="a"
+      >
+        Todo App
+      </NavbarBrand>
+    </div>
+  </Navbar>
+</div>
+`;

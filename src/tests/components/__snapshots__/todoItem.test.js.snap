@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoItem should render correctly with props 1`] = `
+<div
+  className="row align-items-center mt-1"
+>
+  <div
+    className="col-1"
+  >
+    <Button
+      className="icon-button"
+      color="secondary"
+      id="move-button"
+      onClick={[Function]}
+      tag="button"
+    >
+      <Memo(ForwardRef(DoneOutlineIcon))
+        fontSize="14px"
+      />
+    </Button>
+  </div>
+  <div
+    className="col-11"
+  >
+    <ForwardRef(Accordion)
+      className="box"
+    >
+      <ForwardRef(AccordionSummary)
+        aria-controls="panel1a-content"
+        expandIcon={
+          <Memo
+            style={
+              Object {
+                "color": "rgba(255, 255, 255, 0.5)",
+              }
+            }
+          />
+        }
+        id="panel1a-header"
+      >
+        <ForwardRef(Typography)
+          className="title"
+        >
+          ToDo
+        </ForwardRef(Typography)>
+      </ForwardRef(AccordionSummary)>
+      <ForwardRef(AccordionDetails)>
+        <div
+          className="row"
+        >
+          <ForwardRef(Typography)
+            className="description"
+          >
+            World
+          </ForwardRef(Typography)>
+        </div>
+        <div
+          className="row mt-3"
+        >
+          <div
+            className="col-12"
+          >
+            <Button
+              className="icon-button"
+              color="secondary"
+              id="delete-button"
+              onClick={[Function]}
+              tag="button"
+            >
+              <Memo(ForwardRef(DeleteIcon))
+                fontSize="10px"
+              />
+            </Button>
+            <Button
+              className="icon-button"
+              color="secondary"
+              id="edit-button"
+              onClick={[Function]}
+              tag="button"
+            >
+              <Memo(ForwardRef(EditIcon))
+                fontSize="10px"
+              />
+            </Button>
+          </div>
+        </div>
+        <div
+          className="row p-4"
+          id="edit-form-div"
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <Form
+            id="edit-form"
+            onSubmit={[Function]}
+            tag="form"
+          >
+            <FormGroup
+              className="mb-2"
+              tag="div"
+            >
+              <Label
+                for="title-edit"
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                Title
+              </Label>
+              <Input
+                id="title-edit"
+                name="title"
+                type="text"
+              />
+            </FormGroup>
+            <FormGroup
+              className="mb-3"
+              tag="div"
+            >
+              <Label
+                for="description-edit"
+                tag="label"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                Description
+              </Label>
+              <Input
+                id="description-edit"
+                name="description"
+                type="textarea"
+              />
+            </FormGroup>
+            <Button
+              className="w-100"
+              color="secondary"
+              id="edit-form-submit"
+              tag="button"
+              type="submit"
+            >
+              Save
+            </Button>
+          </Form>
+        </div>
+      </ForwardRef(AccordionDetails)>
+    </ForwardRef(Accordion)>
+  </div>
+</div>
+`;

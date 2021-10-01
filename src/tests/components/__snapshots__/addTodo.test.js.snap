@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTodo should render correctly with no props 1`] = `
+<div
+  className="row w-100 pl-5 pr-5 pt-3 pb-3 justify-content-center"
+>
+  <InputGroup
+    className="mt-2 ml-2 w-100 mb-3"
+    tag="div"
+  >
+    <Input
+      id="title-input"
+      onChange={[Function]}
+      placeholder="What would you like to do today?"
+      type="text"
+      value=""
+    />
+    <InputGroupAddon
+      addonType="append"
+      tag="div"
+    >
+      <Button
+        className="add-button pl-4 pr-4"
+        color="secondary"
+        id="add"
+        onClick={[Function]}
+        tag="button"
+      >
+        Add
+      </Button>
+    </InputGroupAddon>
+  </InputGroup>
+  <Input
+    className="description-input"
+    id="description-input"
+    onChange={[Function]}
+    placeholder="Description (optional)"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    type="textarea"
+    value=""
+  />
+</div>
+`;

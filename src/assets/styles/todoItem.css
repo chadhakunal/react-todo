@@ -1,0 +1,34 @@
+.box {
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 5px !important;
+}
+
+.icon-button {
+    padding: 0px !important;
+    padding-right: 15px !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: 0px !important;
+    display: inline-block;
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.icon-button:active {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.icon-button:focus {
+    border: 0px !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.title {
+    font-size: 1.2rem !important;
+}
+
+.description {
+    font-size: 0.9rem !important;
+    color: rgba(255, 255, 255, 0.75);
+}

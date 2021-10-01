@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage should render correctly with no props 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="row w-100 justify-content-center mt-5"
+  >
+    <div
+      className="col-10"
+    >
+      <AddTodo
+        onAdd={[Function]}
+      />
+    </div>
+  </div>
+  <div
+    className="row w-100 justify-content-center mt-5"
+  >
+    <div
+      className="col-10"
+    >
+      <Search
+        className="w-100"
+        onSearch={[Function]}
+      />
+    </div>
+  </div>
+  <div
+    className="row w-100 justify-content-center mt-3"
+  >
+    <div
+      className="col-md-6"
+    >
+      <TodoSection
+        items={Array []}
+        moveItem={[Function]}
+        name="Todo"
+        onDelete={[Function]}
+        onEdit={[Function]}
+        type="todo"
+      />
+    </div>
+    <div
+      className="col-md-6"
+    >
+      <TodoSection
+        items={Array []}
+        moveItem={[Function]}
+        name="Completed"
+        onDelete={[Function]}
+        onEdit={[Function]}
+        type="completed"
+      />
+    </div>
+  </div>
+</div>
+`;
