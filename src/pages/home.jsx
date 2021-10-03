@@ -44,7 +44,7 @@ class HomePage extends React.Component {
   }
 
   toggleType = (type) => {
-    return type == "todo" ? "completed" : "todo";
+    return type === "todo" ? "completed" : "todo";
   }
 
   moveItem = (index, from) => {

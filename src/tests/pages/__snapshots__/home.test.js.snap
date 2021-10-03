@@ -34,7 +34,18 @@ exports[`HomePage should render correctly with no props 1`] = `
       className="col-md-6"
     >
       <TodoSection
-        items={Array []}
+        items={
+          Array [
+            Object {
+              "description": "World1",
+              "title": "Hello1",
+            },
+            Object {
+              "description": "World2",
+              "title": "Hello2",
+            },
+          ]
+        }
         moveItem={[Function]}
         name="Todo"
         onDelete={[Function]}
@@ -46,7 +57,18 @@ exports[`HomePage should render correctly with no props 1`] = `
       className="col-md-6"
     >
       <TodoSection
-        items={Array []}
+        items={
+          Array [
+            Object {
+              "description": "World3",
+              "title": "Hello3",
+            },
+            Object {
+              "description": "World4",
+              "title": "Hello4",
+            },
+          ]
+        }
         moveItem={[Function]}
         name="Completed"
         onDelete={[Function]}
