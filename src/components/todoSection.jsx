@@ -1,20 +1,18 @@
 import React from "react";
-import TodoItem from "./todoItem";
+import TodoItem from "components/TodoItem";
 import PropTypes from 'prop-types';
 
 import "assets/styles/todoSection.css";
 
-const TodoSection = (props) => {
-  const propsWithoutItems = {...props}
-  delete propsWithoutItems["items"];
+const TodoSection = ({ name, items, ...remainingProps }) => {
   return (
     <div className="container-fluid">
       <div className="row mb-3 mt-3">
-        <big className="headers">{props.name}</big>
+        <big className="headers">{name}</big>
       </div>
       <div className="container bordered-box pt-4" style={{ height: "60vh", overflowY: "scroll" }}>
-        {props.items.map((data, index) => {
-          return ( <TodoItem key={index} {...data} {...propsWithoutItems} index={index} /> )
+        {items.map((data, index) => {
+          return ( <TodoItem key={data.timestamp} {...data} {...remainingProps} index={index} /> )
         })}
       </div>
     </div>
